@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2EE3ED61D1556A800A4428A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3ED51D1556A800A4428A /* main.m */; };
+		F2EE3ED91D1556A800A4428A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3ED81D1556A800A4428A /* AppDelegate.m */; };
+		F2EE3EDC1D1556A800A4428A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3EDB1D1556A800A4428A /* ViewController.m */; };
+		F2EE3EDF1D1556A800A4428A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EE3EDD1D1556A800A4428A /* Main.storyboard */; };
+		F2EE3EE21D1556A800A4428A /* _________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3EE01D1556A800A4428A /* _________.xcdatamodeld */; };
+		F2EE3EE41D1556A800A4428A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE3EE31D1556A800A4428A /* Assets.xcassets */; };
+		F2EE3EE71D1556A800A4428A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EE3EE51D1556A800A4428A /* LaunchScreen.storyboard */; };
+		F2EE3EF21D1556A800A4428A /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3EF11D1556A800A4428A /* _________Tests.m */; };
+		F2EE3EFD1D1556A800A4428A /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE3EFC1D1556A800A4428A /* _________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2EE3EEE1D1556A800A4428A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EE3EC91D1556A800A4428A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EE3ED01D1556A800A4428A;
+			remoteInfo = "秘密のメモ〜電卓編";
+		};
+		F2EE3EF91D1556A800A4428A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EE3EC91D1556A800A4428A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EE3ED01D1556A800A4428A;
+			remoteInfo = "秘密のメモ〜電卓編";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2EE3ED11D1556A800A4428A /* 秘密のメモ〜電卓編.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "秘密のメモ〜電卓編.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE3ED51D1556A800A4428A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2EE3ED71D1556A800A4428A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2EE3ED81D1556A800A4428A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2EE3EDA1D1556A800A4428A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2EE3EDB1D1556A800A4428A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2EE3EDE1D1556A800A4428A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2EE3EE11D1556A800A4428A /* _________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_________.xcdatamodel"; sourceTree = "<group>"; };
+		F2EE3EE31D1556A800A4428A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EE3EE61D1556A800A4428A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2EE3EE81D1556A800A4428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EE3EED1D1556A800A4428A /* 秘密のメモ〜電卓編Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "秘密のメモ〜電卓編Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE3EF11D1556A800A4428A /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		F2EE3EF31D1556A800A4428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EE3EF81D1556A800A4428A /* 秘密のメモ〜電卓編UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "秘密のメモ〜電卓編UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE3EFC1D1556A800A4428A /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		F2EE3EFE1D1556A800A4428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2EE3ECE1D1556A800A4428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EEA1D1556A800A4428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EF51D1556A800A4428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2EE3EC81D1556A800A4428A = {
+			isa = PBXGroup;
+			children = (
+				F2EE3ED31D1556A800A4428A /* 秘密のメモ〜電卓編 */,
+				F2EE3EF01D1556A800A4428A /* 秘密のメモ〜電卓編Tests */,
+				F2EE3EFB1D1556A800A4428A /* 秘密のメモ〜電卓編UITests */,
+				F2EE3ED21D1556A800A4428A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EE3ED21D1556A800A4428A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE3ED11D1556A800A4428A /* 秘密のメモ〜電卓編.app */,
+				F2EE3EED1D1556A800A4428A /* 秘密のメモ〜電卓編Tests.xctest */,
+				F2EE3EF81D1556A800A4428A /* 秘密のメモ〜電卓編UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2EE3ED31D1556A800A4428A /* 秘密のメモ〜電卓編 */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE3ED71D1556A800A4428A /* AppDelegate.h */,
+				F2EE3ED81D1556A800A4428A /* AppDelegate.m */,
+				F2EE3EDA1D1556A800A4428A /* ViewController.h */,
+				F2EE3EDB1D1556A800A4428A /* ViewController.m */,
+				F2EE3EDD1D1556A800A4428A /* Main.storyboard */,
+				F2EE3EE31D1556A800A4428A /* Assets.xcassets */,
+				F2EE3EE51D1556A800A4428A /* LaunchScreen.storyboard */,
+				F2EE3EE81D1556A800A4428A /* Info.plist */,
+				F2EE3EE01D1556A800A4428A /* _________.xcdatamodeld */,
+				F2EE3ED41D1556A800A4428A /* Supporting Files */,
+			);
+			path = "秘密のメモ〜電卓編";
+			sourceTree = "<group>";
+		};
+		F2EE3ED41D1556A800A4428A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE3ED51D1556A800A4428A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2EE3EF01D1556A800A4428A /* 秘密のメモ〜電卓編Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE3EF11D1556A800A4428A /* _________Tests.m */,
+				F2EE3EF31D1556A800A4428A /* Info.plist */,
+			);
+			path = "秘密のメモ〜電卓編Tests";
+			sourceTree = "<group>";
+		};
+		F2EE3EFB1D1556A800A4428A /* 秘密のメモ〜電卓編UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE3EFC1D1556A800A4428A /* _________UITests.m */,
+				F2EE3EFE1D1556A800A4428A /* Info.plist */,
+			);
+			path = "秘密のメモ〜電卓編UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EE3ED01D1556A800A4428A /* 秘密のメモ〜電卓編 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE3F011D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編" */;
+			buildPhases = (
+				F2EE3ECD1D1556A800A4428A /* Sources */,
+				F2EE3ECE1D1556A800A4428A /* Frameworks */,
+				F2EE3ECF1D1556A800A4428A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "秘密のメモ〜電卓編";
+			productName = "秘密のメモ〜電卓編";
+			productReference = F2EE3ED11D1556A800A4428A /* 秘密のメモ〜電卓編.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2EE3EEC1D1556A800A4428A /* 秘密のメモ〜電卓編Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE3F041D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編Tests" */;
+			buildPhases = (
+				F2EE3EE91D1556A800A4428A /* Sources */,
+				F2EE3EEA1D1556A800A4428A /* Frameworks */,
+				F2EE3EEB1D1556A800A4428A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EE3EEF1D1556A800A4428A /* PBXTargetDependency */,
+			);
+			name = "秘密のメモ〜電卓編Tests";
+			productName = "秘密のメモ〜電卓編Tests";
+			productReference = F2EE3EED1D1556A800A4428A /* 秘密のメモ〜電卓編Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2EE3EF71D1556A800A4428A /* 秘密のメモ〜電卓編UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE3F071D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編UITests" */;
+			buildPhases = (
+				F2EE3EF41D1556A800A4428A /* Sources */,
+				F2EE3EF51D1556A800A4428A /* Frameworks */,
+				F2EE3EF61D1556A800A4428A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EE3EFA1D1556A800A4428A /* PBXTargetDependency */,
+			);
+			name = "秘密のメモ〜電卓編UITests";
+			productName = "秘密のメモ〜電卓編UITests";
+			productReference = F2EE3EF81D1556A800A4428A /* 秘密のメモ〜電卓編UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2EE3EC91D1556A800A4428A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "伊藤慶";
+				TargetAttributes = {
+					F2EE3ED01D1556A800A4428A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F2EE3EEC1D1556A800A4428A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2EE3ED01D1556A800A4428A;
+					};
+					F2EE3EF71D1556A800A4428A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2EE3ED01D1556A800A4428A;
+					};
+				};
+			};
+			buildConfigurationList = F2EE3ECC1D1556A800A4428A /* Build configuration list for PBXProject "秘密のメモ〜電卓編" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2EE3EC81D1556A800A4428A;
+			productRefGroup = F2EE3ED21D1556A800A4428A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EE3ED01D1556A800A4428A /* 秘密のメモ〜電卓編 */,
+				F2EE3EEC1D1556A800A4428A /* 秘密のメモ〜電卓編Tests */,
+				F2EE3EF71D1556A800A4428A /* 秘密のメモ〜電卓編UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2EE3ECF1D1556A800A4428A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE3EE71D1556A800A4428A /* LaunchScreen.storyboard in Resources */,
+				F2EE3EE41D1556A800A4428A /* Assets.xcassets in Resources */,
+				F2EE3EDF1D1556A800A4428A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EEB1D1556A800A4428A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EF61D1556A800A4428A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2EE3ECD1D1556A800A4428A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE3EDC1D1556A800A4428A /* ViewController.m in Sources */,
+				F2EE3EE21D1556A800A4428A /* _________.xcdatamodeld in Sources */,
+				F2EE3ED91D1556A800A4428A /* AppDelegate.m in Sources */,
+				F2EE3ED61D1556A800A4428A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EE91D1556A800A4428A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE3EF21D1556A800A4428A /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE3EF41D1556A800A4428A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE3EFD1D1556A800A4428A /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2EE3EEF1D1556A800A4428A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EE3ED01D1556A800A4428A /* 秘密のメモ〜電卓編 */;
+			targetProxy = F2EE3EEE1D1556A800A4428A /* PBXContainerItemProxy */;
+		};
+		F2EE3EFA1D1556A800A4428A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EE3ED01D1556A800A4428A /* 秘密のメモ〜電卓編 */;
+			targetProxy = F2EE3EF91D1556A800A4428A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2EE3EDD1D1556A800A4428A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EE3EDE1D1556A800A4428A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2EE3EE51D1556A800A4428A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EE3EE61D1556A800A4428A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2EE3EFF1D1556A800A4428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2EE3F001D1556A800A4428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EE3F021D1556A800A4428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "秘密のメモ〜電卓編/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2EE3F031D1556A800A4428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "秘密のメモ〜電卓編/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2EE3F051D1556A800A4428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "秘密のメモ〜電卓編Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/秘密のメモ〜電卓編.app/秘密のメモ〜電卓編";
+			};
+			name = Debug;
+		};
+		F2EE3F061D1556A800A4428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "秘密のメモ〜電卓編Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/秘密のメモ〜電卓編.app/秘密のメモ〜電卓編";
+			};
+			name = Release;
+		};
+		F2EE3F081D1556A800A4428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "秘密のメモ〜電卓編UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "秘密のメモ〜電卓編";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F2EE3F091D1556A800A4428A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "秘密のメモ〜電卓編UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liech.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "秘密のメモ〜電卓編";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2EE3ECC1D1556A800A4428A /* Build configuration list for PBXProject "秘密のメモ〜電卓編" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE3EFF1D1556A800A4428A /* Debug */,
+				F2EE3F001D1556A800A4428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EE3F011D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE3F021D1556A800A4428A /* Debug */,
+				F2EE3F031D1556A800A4428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2EE3F041D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE3F051D1556A800A4428A /* Debug */,
+				F2EE3F061D1556A800A4428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2EE3F071D1556A800A4428A /* Build configuration list for PBXNativeTarget "秘密のメモ〜電卓編UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE3F081D1556A800A4428A /* Debug */,
+				F2EE3F091D1556A800A4428A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2EE3EE01D1556A800A4428A /* _________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2EE3EE11D1556A800A4428A /* _________.xcdatamodel */,
+			);
+			currentVersion = F2EE3EE11D1556A800A4428A /* _________.xcdatamodel */;
+			path = "_________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2EE3EC91D1556A800A4428A /* Project object */;
+}
